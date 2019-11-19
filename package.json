@@ -1,0 +1,31 @@
+{
+  "name": "bootstraptest",
+  "version": "1.0.0",
+  "description": "Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "Watch": "gulp"
+  },
+  "keywords": [
+    "Bootstrap"
+  ],
+  "author": "GI",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-4-autocomplete": "^1.2.0",
+    "gulp-pug": "^4.0.1",
+    "magnific-popup": "^1.1.0",
+    "normalize.css": "^8.0.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
