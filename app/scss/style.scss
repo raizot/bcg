@@ -376,6 +376,11 @@ div[filter]:hover .text{
     }
     
 }
+.section-blog{
+    img{
+        max-width: 100%;
+    }
+}
 .left > div:first-child{
     order: 1;
 }
@@ -586,4 +591,15 @@ div[filter]:hover .text{
     .contact-info__text{
         margin: 0 auto;
     }
+#toTop {
+     bottom: 30px;
+     right: 30px;
+}
+.blog{
+    margin-left:0px ;
+}
+.right,
+.left {
+    margin: 0;
+}
 }
