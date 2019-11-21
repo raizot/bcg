@@ -489,6 +489,7 @@ div[filter]:hover .text{
 }
 @media screen and (max-width:1024px){
     header{
+        position: relative;
     nav{
         display: none;
     }
@@ -510,11 +511,15 @@ div[filter]:hover .text{
             outline: none;
         }
     }
+    
     .menu {
         background-color: #fff;
         position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
         display: flex;
-        width: 100vw;
+        width: 100%;
         z-index: 99;
 
         &__item {
@@ -530,6 +535,7 @@ div[filter]:hover .text{
             }
         }
     }
+
 }
 .portfolio{
     .button{
@@ -586,7 +592,7 @@ div[filter]:hover .text{
         order: 2;
     }
     .footer{
-        padding: 5px;
+        
     }
     .contact-info__text{
         margin: 0 auto;
