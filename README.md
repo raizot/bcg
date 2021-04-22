@@ -1,5 +1,5 @@
 <h1>Учебный проект</h1>
-https://george-izot.github.io/bcg/app/index.html
+https://raizot.github.io/bcg/app/index.html
 <br>Используемые технологии:
 <br>Pug
 <br>Scss
